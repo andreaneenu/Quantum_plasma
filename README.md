@@ -17,7 +17,7 @@ than classical models. This can be particularly important in fields such as astr
 
 This project is based on our research work that involves a hydrodynamic description of astrophysical plasma 
 
-You can read the paper here:  
+You can read the report here:  
 👉 [**Quantum Hydrodynamic Description of Plasma (PDF)**](https://github.com/andreaneenu/Quantum_plasma/blob/main/Quantum_Plasma_Thesis_Paper.pdf)
 
 ## Simulation
@@ -65,4 +65,5 @@ No commercial use is intended, and full credit is given to the original develope
 ## 📘 References for the simulation
 - Birdsall, C. K., & Langdon, A. B. *Plasma Physics via Computer Simulation*, McGraw-Hill (1985).  
 - Hockney, R. W., & Eastwood, J. W. *Computer Simulation Using Particles*, Taylor & Francis (1988).  
+
 
