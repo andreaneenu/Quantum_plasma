@@ -52,21 +52,11 @@ Under these conditions, **Maxwell’s equations reduce to Poisson’s equation**
 4. End loop  
 5. Output particle and grid data  
 6. Compute and print simulation statistics  
-
----
-
-## 🗂️ Code Structure and Files
-
-| File | Description |
-|------|--------------|
-| **espic1d.c** | Main driver for the 1D electrostatic PIC simulation. Handles initialization, time integration, and particle updates. |
-| **display.c** | Visualization and data output routines for particle positions, velocities, and fields. |
-| **README.md** | Documentation file describing the simulation setup, algorithm, and file organization. |
-
 ---
 ## 🧾 Acknowledgment and Copyright Notice
-
-This project is based on and extends the original **ESPIC1D** code developed by [Kartik Patel](https://github.com/letapk/espic1d).  
+We used the LCPFCT routines developed by Boris, Jay P. and team at the Naval Research Lab Washington DC : [LCPFCT](https://apps.dtic.mil/sti/citations/ADA265011).
+We implemented the Python wrappers for the fortran subroutines with the help of the github repo : [Scivision](https://github.com/letapk/espic1d).  
+We also cross checked our results using the **ESPIC1D** code developed by [Kartik Patel](https://github.com/letapk/espic1d).  
 All copyrights for the original code belong to the respective author.
 
 The modifications and additional documentation presented here were made **solely for academic and research purposes**.  
@@ -75,3 +65,4 @@ No commercial use is intended, and full credit is given to the original develope
 ## 📘 References for the simulation
 - Birdsall, C. K., & Langdon, A. B. *Plasma Physics via Computer Simulation*, McGraw-Hill (1985).  
 - Hockney, R. W., & Eastwood, J. W. *Computer Simulation Using Particles*, Taylor & Francis (1988).  
+
